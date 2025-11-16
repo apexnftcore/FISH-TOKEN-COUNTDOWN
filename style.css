@@ -4,18 +4,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to right, #00b4db, #0083b0);
+  margin: 0;
+  /* Background image from URL */
+  background: url('https://pbs.twimg.com/media/G53iTw4bwAA-W0Z?format=jpg&name=medium') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   text-align: center;
 }
 
 .container {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.5); /* Translucent black overlay */
   padding: 30px;
   border-radius: 15px;
-}
-
-#countdown {
-  font-size: 2rem;
-  margin: 20px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
